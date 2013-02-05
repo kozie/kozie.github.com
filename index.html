@@ -1,0 +1,17 @@
+---
+layout: home
+title: Home
+tagline: Welcome
+---
+{% include JB/setup %}
+
+{% for post in site.posts %}
+	<article class="well">
+		<header class="page-header">
+			<h1>{{ post.title }}</h1>
+			<span class="muted">{{ post.date | date_to_string }}</span>
+		</header>
+
+		{{ post.content }}
+	</article>
+{% endfor %}
