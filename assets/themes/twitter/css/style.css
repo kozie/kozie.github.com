@@ -1,6 +1,7 @@
 /* Override some defaults */
 html, body {
 	background-color: #eee;
+	text-rendering: optimizeLegibility;
 }
 .container footer p {
 	line-height: 2.5;
