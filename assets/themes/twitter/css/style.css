@@ -34,9 +34,9 @@ code, pre {
 }
 
 article {
-	border-left: 2px solid #ddd !important;
-	border-right: 2px solid #ddd !important;
-	border-bottom: 8px solid #ccc !important;
+	border-left: 3px solid #dfdfdf !important;
+	border-right: 3px solid #dfdfdf !important;
+	border-bottom: 10px solid #ccc !important;
 }
 
 article header h1 {
