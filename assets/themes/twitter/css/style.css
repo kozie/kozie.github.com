@@ -12,6 +12,10 @@ html, body {
 	margin-top: 4em;
 }
 
+a.brand {
+	/*font-family: 'Press Start 2P', cursive;*/
+}
+
 h1, h2, h3, h4, h5 {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 900;
