@@ -13,5 +13,7 @@ tagline: Welcome
 		</header>
 
 		{{ post.content }}
+
+		<a href="{{ post.url }}" title="{{ post.title }}" class="btn btn-small">Permalink</a>
 	</article>
 {% endfor %}
