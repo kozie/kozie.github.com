@@ -45,7 +45,8 @@ p {
 }
 
 code, pre {
-	font-family: 'Ubuntu Mono', Monaco, Menlo, Consolas, monospace !important;
+	font-family: 'Source Code Pro', monospace !important;
+	font-weight: 300;
 	font-size: 14px !important;
 	text-shadow: 0 -.1em -.2em #666;
 }
